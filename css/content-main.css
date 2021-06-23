@@ -1,0 +1,23 @@
+@import url(./container-song-first.css);
+@import url(./container-song-second.css);
+.contentMain {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  position: absolute;
+  inset-block-start: 4rem;
+  inset-block-end: 4.3rem;
+  inset-inline-end: 0;
+  inset-inline-start: 15rem;
+  padding: 1.5rem 0 1.5rem 2.125rem;
+  gap: 2rem;
+}
+
+.contentMain::-webkit-scrollbar {
+  background: var(--gray40);
+  inline-size: 0.8rem;
+}
+
+.contentMain::-webkit-scrollbar-thumb {
+  background: var(--gray30);
+}

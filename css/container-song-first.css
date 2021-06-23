@@ -1,0 +1,74 @@
+.containerSongFirst {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.containerSongFirst img {
+  inline-size: 4.75rem;
+  block-size: 4.75rem;
+  border-end-start-radius: 0.5rem;
+  border-start-start-radius: 0.5rem;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.containerSongFirst h2 {
+  margin: 0;
+  color: var(--white);
+}
+
+.containerSongFirst p {
+  margin-inline-start: 1rem;
+  inline-size: 7.8125rem;
+  font: var(--baseFontBold);
+}
+
+.row {
+  display: flex;
+  gap: 1rem;
+  overflow: auto;
+  padding: 0;
+}
+
+.row::-webkit-scrollbar {
+  visibility: auto;
+  block-size: 0;
+}
+
+.conteinerSong {
+  align-items: center;
+  min-inline-size: 17.5625rem;
+  min-block-size: 4.75rem;
+  display: flex;
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--white);
+  font: var(--baseFont);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.conteinerSong button {
+  position: relative;
+  inset-inline-end: -0.7rem;
+  opacity: 0;
+  transform: translateY(0.5rem);
+  transition: .3s opacity, .3s transform;
+}
+
+.conteinerSong:hover button {
+  opacity: 1;
+  transform: translateY(0rem);
+}
+
+.conteinerSong button:hover {
+  transform: scale(1.1);
+}
+
+.conteinerSong button:active {
+  transform: scale(.8);
+}

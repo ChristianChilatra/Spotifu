@@ -1,0 +1,11 @@
+@import url(./buttonAction.css);
+@import url(./viewProgress.css);
+.progress{
+    block-size: 3.625rem;
+    inline-size: 37rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+

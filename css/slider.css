@@ -1,0 +1,16 @@
+@import url(./song.css);
+@import url(./progress.css);
+@import url(./volume.css);
+.slider {
+  background-color: var(--gray40);
+  padding: 1.0625rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  inset-inline-start: 0;
+  inset-inline-end: 0;
+  inset-block-end: 0;
+  gap: 2rem;
+  z-index: 1;
+}
