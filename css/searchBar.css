@@ -35,30 +35,23 @@
 .buttomSearch:hover {
   background: var(--gray40);
 }
-
-.contentSearch {
-  position: relative;
-
-}
-
-.contentSearch input {
-  block-size: 1.5rem;
-  inline-size: 22rem;
+.searchBar input {
+  block-size: 2.5rem;
+  min-inline-size: 40%;
   border-radius: 1.25rem;
   border: none;
   user-select: none;
-  padding: 0.5rem 2.5rem;
-  position: absolute;
+  padding-inline-start: 2.5rem;
   inset-block-start: -1.2rem;
   outline: none;
   cursor: pointer;
-}
+  text-overflow: ellipsis;
+} 
 
-.contentSearch i {
+.searchBar i {
   font-size: 1.2rem;
-  position: absolute;
-  inset-block-start: -0.5rem;
-  inset-inline-start: 0.5rem;
+  position: relative;
+  inset-inline-start: 2.8rem;
   z-index: 1;
   color: var(--gray60);
   cursor: pointer;
