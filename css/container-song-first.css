@@ -1,10 +1,10 @@
-.containerSongFirst {
+.contentFirst {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
 
-.containerSongFirst img {
+.contentFirst img {
   inline-size: 4.75rem;
   block-size: 4.75rem;
   border-end-start-radius: 0.5rem;
@@ -16,12 +16,17 @@
   justify-content: space-between;
 }
 
-.containerSongFirst h2 {
+.contentFirst h2 {
   margin: 0;
   color: var(--white);
 }
 
-.containerSongFirst p {
+.contentButtom {
+  position: relative;
+  inset-inline-end: 0.5rem;
+}
+
+.contentFirst p {
   margin-inline-start: 1rem;
   inline-size: 7.8125rem;
   font: var(--baseFontBold);
@@ -44,12 +49,17 @@
   min-inline-size: 17.5625rem;
   min-block-size: 4.75rem;
   display: flex;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.05);
   color: var(--white);
   font: var(--baseFont);
   border-radius: 0.5rem;
   cursor: pointer;
   user-select: none;
+  transition: 1s background;
+}
+
+.conteinerSong:hover, .conteinerSong:focus-within {
+  background: rgba(255, 255, 255, 0.180);
 }
 
 .conteinerSong button {
@@ -60,7 +70,7 @@
   transition: .3s opacity, .3s transform;
 }
 
-.conteinerSong:hover button {
+.conteinerSong:hover button, .conteinerSong:focus-within {
   opacity: 1;
   transform: translateY(0rem);
 }
@@ -69,6 +79,6 @@
   transform: scale(1.1);
 }
 
-.conteinerSong button:active {
+.conteinerSong:active button {
   transform: scale(.8);
 }

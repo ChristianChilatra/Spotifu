@@ -10,9 +10,13 @@
   position: absolute;
   inset-inline-start: 0;
   inset-inline-end: 70%;
-  inset-block-end: 0.125rem;
+  inset-block-end: 0rem;
   z-index: 1;
 
+}
+.song img{
+  inline-size: auto;
+  block-size: 100%;
 }
 
 .nameSong {
@@ -20,9 +24,10 @@
   margin: 0 1.5rem 0 0.5rem;
   overflow: hidden;
   white-space: nowrap;
-  
 }
-
+.song a:hover{
+  text-decoration: underline;
+}
 .song h2 {
   font: var(--baseFontBold);
   color: var(--white);
@@ -33,6 +38,7 @@
   font: var(--baseFont);
   color: var(--gray10);
   margin: 0;
+  display: inline;
 }
 
 .icon-heart {

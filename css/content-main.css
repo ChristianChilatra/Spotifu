@@ -5,12 +5,13 @@
   flex-direction: column;
   overflow: auto;
   position: absolute;
-  inset-block-start: 4rem;
-  inset-block-end: 4.3rem;
+  inset-block-start: 3.9rem;
+  inset-block-end: 5.6rem;
   inset-inline-end: 0;
   inset-inline-start: 15rem;
   padding: 1.5rem 0 1.5rem 2.125rem;
-  gap: 2rem;
+  gap: 2.5rem;
+  box-shadow: inset -1px 40px 131px -121px rgb(80, 8, 8);
 }
 
 .contentMain::-webkit-scrollbar {
