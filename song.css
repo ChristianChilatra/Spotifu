@@ -1,0 +1,52 @@
+.song {
+  block-size: 3.5rem;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  background-color: var(--gray40);
+  padding: 1.0625rem 1rem;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  inset-inline-start: 0;
+  inset-inline-end: 70%;
+  inset-block-end: 0rem;
+  z-index: 1;
+
+}
+.song img{
+  inline-size: auto;
+  block-size: 100%;
+}
+
+.nameSong {
+  cursor: pointer;
+  margin: 0 1.5rem 0 0.5rem;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.song a:hover{
+  text-decoration: underline;
+}
+.song h2 {
+  font: var(--baseFontBold);
+  color: var(--white);
+  margin: 0;
+}
+
+.song p {
+  font: var(--baseFont);
+  color: var(--gray10);
+  margin: 0;
+  display: inline;
+}
+
+.icon-heart {
+  color: var(--white);
+  cursor: pointer;
+}
+
+.icon-heart:active {
+  transform: scale(0.99);
+  color: var(--primary);
+}

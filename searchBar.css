@@ -1,0 +1,80 @@
+.searchBar {
+  block-size: 2.5rem;
+  padding: 0.6875rem 1.5rem 0.6875rem 1.5rem;
+  display: flex;
+  position: absolute;
+  inset-block-start: 0;
+  inset-inline-end: 0;
+  inset-inline-start: 15rem;
+  align-items: center;
+  gap: 1rem;
+  box-shadow: inset -1px 100px 131px -121px rgb(80, 8, 8);
+}
+
+.contentButtom {
+  display: flex;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.contentButtom span {
+  font-weight: 400;
+  display: block;
+}
+
+.buttomSearch {
+  inline-size: 2rem;
+  block-size: 2rem;
+  background: var(--gray60);
+  display: inline-block;
+  border-radius: 50%;
+  color: var(--white);
+  border: none;
+  cursor: pointer;
+  user-select: none;
+}
+
+.buttomSearch:hover {
+  background: var(--gray40);
+}
+
+.searchBar form {
+  block-size: 2.5rem;
+  inline-size: 40%;
+  position: relative;
+}
+
+.searchBar input {
+  block-size: inherit;
+  inline-size: 100%;
+  border-radius: 1.25rem;
+  border: none;
+  user-select: none;
+  padding: 0 1rem 0 2.2rem;
+  position: absolute;
+  outline: none;
+  cursor: pointer;
+  text-overflow: ellipsis;
+  font: var(--baseFont);
+  color: var(--gray30);
+}
+
+.searchBar input::-webkit-input-placeholder {
+  font: var(--baseFont);
+  color: var(--gray10);
+}
+
+.searchBar:focus-within i {
+  font-weight: bolder;
+  transition: 0.1s font-weight;
+}
+
+.searchBar i {
+  font-size: 1.2rem;
+  position: absolute;
+  inset-inline-start: 0.6rem;
+  inset-block-start: 0.6rem;
+  z-index: 1;
+  color: var(--gray60);
+  cursor: pointer;
+}

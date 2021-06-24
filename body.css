@@ -1,0 +1,11 @@
+.body {
+  margin: 0;
+  background: var(--gray50);
+  font-family: var(--baseFontFamily);
+}
+
+.wrapper {
+  display: flex;
+  border: 1px solid red;
+  block-size: 100vh;
+}

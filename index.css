@@ -1,0 +1,31 @@
+@import url(./icon-fonts.css);
+@import url(./fonts.css);
+@import url(./body.css);
+@import url(./link.css);
+@import url(./buttonIcon.css);
+@import url(./sideBar.css);
+@import url(./song.css);
+@import url(./slider.css);
+@import url(./searchBar.css);
+@import url(./content-main.css);
+
+
+
+
+:root {
+  --primary: #00B050;
+  --white: #FFFFFF;
+  --gray10: #B3B3B3;
+  --gray20: #737373;
+  --gray30: #282828;
+  --gray40: #181818;
+  --gray50: #121212;
+  --gray60: #000000;
+  --baseFontFamily: Avenir, Helvetica, sans-serif;
+  --headLine: bold 2rem/normal var(--baseFontFamily);
+  --title: bold 1.5rem/1.75rem var(--baseFontFamily);
+  --baseFont: normal .875rem/1.375rem var(--baseFontFamily);
+  --baseFontBold: bold .875rem/1.375rem var(--baseFontFamily);
+  --button: normal .875rem/1rem var(--baseFontFamily);
+  --smallFont: bold .75em/normal var(--baseFontFamily);
+}
