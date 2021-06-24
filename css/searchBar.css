@@ -20,7 +20,6 @@
 .contentButtom span {
   font-weight: 400;
   display: block;
-  margin: 0.3rem 0.6rem;
 }
 
 .buttomSearch {
@@ -30,6 +29,8 @@
   display: inline-block;
   border-radius: 50%;
   color: var(--white);
+  border: none;
+  cursor: pointer;
   user-select: none;
 }
 
@@ -49,11 +50,23 @@
   border-radius: 1.25rem;
   border: none;
   user-select: none;
-  padding: 0 1rem 0 2rem;
+  padding: 0 1rem 0 2.2rem;
   position: absolute;
   outline: none;
   cursor: pointer;
   text-overflow: ellipsis;
+  font: var(--baseFont);
+  color: var(--gray30);
+}
+
+.searchBar input::-webkit-input-placeholder {
+  font: var(--baseFont);
+  color: var(--gray10);
+}
+
+.searchBar:focus-within i {
+  font-weight: bolder;
+  transition: 0.1s font-weight;
 }
 
 .searchBar i {
