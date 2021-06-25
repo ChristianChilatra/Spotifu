@@ -1,0 +1,23 @@
+.contentMain.artist:is([id*='badBunny']) {
+  background-image: url(../img/bbab6768640000fe8927b740383f72c210daef025a.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.contentMain.artist:is([id*='caliyElDandee']) {
+  background-image: url(../img/cyedab67618600001016129bc9744bff2c7ac549ff88.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.contentMain.artist:is([id*='sech']) {
+  background-image: url(../img/shab67618600001016551f47e601806c76224af8d0.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.contentMain.artist:is([id*='feid']) {
+  background-image: url(../img/fdab67618600001016c328dc86be4ddead071de235.jpg);
+  background-size: cover;
+  background-position: center;
+}

@@ -1,6 +1,9 @@
 @import url(./container-song-first.css);
 @import url(./container-song-second.css);
 @import url(./container-playlist-artist.css);
+@import url(./background-artist.css);
+
+
 .contentMain {
   display: flex;
   flex-direction: column;
@@ -36,14 +39,13 @@
   padding: 0;
   gap: 2rem;
   box-shadow: inset -1px 40px 131px -121px rgb(80, 8, 8);
-  background-image: url(../img/bbab6768640000fe8927b740383f72c210daef025a.jpg);
-  background-size: cover;
 }
 
 .boxShadow-mainArtist {
   position: absolute;
-  inset-block-start:0;
+  inset-block-start: 0;
+  inset-block-end: 0;
   inset-inline-end: 0;
   inset-inline-start: 0;
-  box-shadow: inset -1px -250px 990px 50px var(--gray40);
+  box-shadow: inset -1px -350px 990px 50px var(--gray40);
 }
