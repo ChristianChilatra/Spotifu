@@ -101,7 +101,3 @@
   background: var(--gray30);
   cursor: pointer;
 }
-
-.dateSong:active{
-  transform: scale(0.99);
-}
