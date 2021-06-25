@@ -1,0 +1,97 @@
+.listSong {
+  block-size: 100%;
+  backdrop-filter: blur(800px);
+  display: flex;
+  flex-direction: column;
+  box-shadow: inset -1px -530px 131px -80px var(--gray40);
+  color: var(--white);
+}
+
+.listSong .buttonIcon.is-primary {
+  position: absolute;
+  inset-block-start: -2rem;
+  inset-inline-start: 1.3rem;
+  inline-size: 4rem;
+  block-size: 4rem;
+  z-index: 1;
+}
+
+.listSong button i {
+  font-size: 1.3rem;
+}
+
+.listSong form {
+  padding: 1.2rem 1rem 1.2rem 8rem;
+  block-size: 2rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+  color: var(--white);
+}
+
+.listSong form input {
+  block-size: 2rem;
+  inline-size: 100%;
+  background: transparent;
+  outline: none;
+  border: 0;
+  position: relative;
+  padding-inline-start: 0.5rem;
+  cursor: pointer;
+  color: var(--white);
+}
+
+.listSong form input::-webkit-input-placeholder {
+  color: var(--gray10);
+}
+
+.nameColum {
+  display: flex;
+  justify-content: space-around;
+  color: var(--gray10);
+  align-items: center;
+  padding-inline-start: 2rem;
+}
+
+.nameColum h3 {
+  font: var(--baseFont);
+  font-weight: 200;
+  inline-size: 12rem;
+}
+
+.playSong {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+}
+
+.dateSong {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.dateSong .buttonIcon {
+  border: 1px solid var(--white);
+}
+
+.dateSong .buttonIcon i {
+  font-size: 0.8rem;
+  position: relative;
+  inset-block-start: 0.1rem;
+}
+
+.dateSong h2 {
+  font: var(--baseFont);
+  font-weight: 200;
+  inline-size: 12rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow-x: hidden;
+}
+
+.dateSong p {
+  font: var(--baseFont);
+  font-weight: 200;
+}

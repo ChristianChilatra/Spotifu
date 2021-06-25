@@ -10,7 +10,7 @@
   position: absolute;
   inset-inline-start: 0;
   inset-inline-end: 70%;
-  inset-block-end: 0rem;
+  inset-block-end: 0.150rem;
   z-index: 1;
 
 }
